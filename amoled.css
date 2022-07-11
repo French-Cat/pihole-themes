@@ -1,0 +1,470 @@
+/* pihole dark theme
+ *
+ * 10is2 2019-02-17
+ *
+ */
+
+.skin-blue .main-header .navbar {
+    background-color: #000000
+}
+
+.skin-blue .main-header .navbar .nav>li>a {
+    color: #fff
+}
+
+.skin-blue .main-header .navbar .nav>li>a:hover,
+.skin-blue .main-header .navbar .nav>li>a:active,
+.skin-blue .main-header .navbar .nav>li>a:focus,
+.skin-blue .main-header .navbar .nav .open>a,
+.skin-blue .main-header .navbar .nav .open>a:hover,
+.skin-blue .main-header .navbar .nav .open>a:focus {
+    background: rgba(0, 0, 0, 0.1);
+    color: #f6f6f6
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #fff
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    color: #f6f6f6;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #fff
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background-color: #000000
+}
+
+@media (max-width:767px) {
+    .skin-blue .main-header .navbar .dropdown-menu li.divider {
+        background-color: rgba(255, 255, 255, 0.1)
+    }
+    .skin-blue .main-header .navbar .dropdown-menu li a {
+        color: #fff
+    }
+    .skin-blue .main-header .navbar .dropdown-menu li a:hover {
+        background: #367fa9
+    }
+}
+
+.skin-blue .main-header .logo {
+    background-color: #367fa9;
+    color: #fff;
+    border-bottom: 0 solid transparent
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: #000000
+}
+
+.skin-blue .main-header li.user-header {
+    background-color: #000000
+}
+
+.skin-blue .content-header {
+    background: transparent
+}
+
+.skin-blue .wrapper,
+.skin-blue .main-sidebar,
+.skin-blue .left-side {
+    background-color: #000000
+}
+
+.skin-blue .user-panel>.info,
+.skin-blue .user-panel>.info>a {
+    color: #fff
+}
+
+.skin-blue .sidebar-menu>li.header {
+    color: #4b646f;
+    background: 000000
+}
+
+.skin-blue .sidebar-menu>li>a {
+    border-left: 3px solid transparent
+}
+
+.skin-blue .sidebar-menu>li:hover>a,
+.skin-blue .sidebar-menu>li.active>a {
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #3c8dbc
+}
+
+.skin-blue .sidebar-menu>li>.treeview-menu {
+    margin: 0 1px;
+    background: #2c3b41
+}
+
+.skin-blue .sidebar a {
+    color: #b8c7ce
+}
+
+.skin-blue .sidebar a:hover {
+    text-decoration: none
+}
+
+.skin-blue .treeview-menu>li>a {
+    color: #8aa4af
+}
+
+.skin-blue .treeview-menu>li.active>a,
+.skin-blue .treeview-menu>li>a:hover {
+    color: #fff
+}
+
+.skin-blue .sidebar-form {
+    border-radius: 3px;
+    border: 1px solid #374850;
+    margin: 10px 10px
+}
+
+.skin-blue .sidebar-form input[type="text"],
+.skin-blue .sidebar-form .btn {
+    box-shadow: none;
+    background-color: #374850;
+    border: 1px solid transparent;
+    height: 35px;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.skin-blue .sidebar-form input[type="text"] {
+    color: #666;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px
+}
+
+.skin-blue .sidebar-form input[type="text"]:focus,
+.skin-blue .sidebar-form input[type="text"]:focus+.input-group-btn .btn {
+    background-color: #fff;
+    color: #666
+}
+
+.skin-blue .sidebar-form input[type="text"]:focus+.input-group-btn .btn {
+    border-left-color: #fff
+}
+
+.skin-blue .sidebar-form .btn {
+    color: #999;
+    border-top-left-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 0
+}
+
+.skin-blue.layout-top-nav .main-header>.logo {
+    background-color: #3c8dbc;
+    color: #fff;
+    border-bottom: 0 solid transparent
+}
+
+.skin-blue.layout-top-nav .main-header>.logo:hover {
+    background-color: #3b8ab8
+}
+
+
+/* _________________ darkness go _____________________ */
+
+.layout-boxed {
+    background: 000000;
+    color: #cfd8dc;
+}
+
+body {
+    background: 000000;
+    color: #cfd8dc;
+}
+
+a {
+    color: #90a4ae;
+}
+
+pre, code {
+    background: #000000;
+    color: #eceff1;
+    border: none;
+}
+
+a:hover, a:active, a:focus {
+    color: #cfd8dc;
+}
+
+input, textarea {
+    background: #000000;
+    color: #eceff1;
+    border: 1px solid #000000;
+}
+
+
+/* ___ sidebar ___ */
+
+.skin-blue .main-header .navbar {
+    background: #000000;
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    background: #000000;
+}
+
+.skin-blue .main-header .logo {
+    background: #000000;
+    border-bottom: 0 solid transparent
+}
+
+.skin-blue .main-header .logo:hover {
+    background: #000000;
+}
+
+.skin-blue .sidebar-menu>li:hover>a,
+.skin-blue .sidebar-menu>li.active>a {
+    border-left-color: #000000;
+}
+
+/* ____ content ____ */
+
+.content-wrapper {
+    background: #000000;
+}
+
+.box {
+    background: #000000;
+    color: #cfd8dc;
+    border: none;
+}
+
+.box-header {
+    color: #cfd8dc;
+}
+
+.box-header.with-border {
+    border-bottom: 1px solid 000000;
+}
+
+.bg-green {
+    background: #000000 !important;
+}
+
+.bg-aqua {
+    background: #000000 !important;
+}
+
+.bg-yellow {
+    background: #000000 !important;
+}
+
+.bg-red {
+    background: #000000 !important;
+}
+
+.main-footer {
+    background: #000000;
+    color: #cfd8dc;
+    border: none;
+}
+
+.progress {
+    background: #45007c;
+}
+
+.progress-bar-blue, .progress-bar-green, .progress-bar-yellow {
+    background: #000000;
+}
+
+.fa.fa-circle {
+    color: #000000 !important;
+}
+
+.table-bordered>thead>tr>th,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>tbody>tr>td,
+.table-bordered>tfoot>tr>td,
+.table-bordered {
+    border: 1px solid #455a64;
+}
+
+/* ___ settings ___ */
+
+.form-control {
+    background: #000000;
+    color: #cfd8dc;
+    border: none;
+}
+
+.box-footer {
+    background: #000000;
+    color: #cfd8dc;
+    border: none;
+}
+
+.nav-tabs-custom, .nav-tabs-custom>.tab-content {
+    background: 000000;
+    color: #cfd8dc;
+}
+
+.nav-tabs-custom>.nav-tabs>li>a {
+    color: #90a4ae;
+}
+
+.nav-tabs-custom>.nav-tabs>li>a:hover {
+    color: #cfd8dc;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active>a,
+.nav-tabs-custom>.nav-tabs>li.active:hover>a {
+    background: #000000;
+    color: #eceff1;
+    border: none;
+}
+
+.nav-tabs-custom>.nav-tabs {
+    border-bottom: 1px solid #000000;
+} 
+
+.nav-tabs-custom>.nav-tabs>li.active {
+    border-top-color: #90a4ae;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background: #000000;
+}
+
+.btn-danger {
+    background: #000000;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #45007c;
+}
+
+.btn-warning {
+    background: #000000;
+    border: none;
+}
+
+.btn-warning:hover {
+    background: #000000;
+}
+
+.btn-primary, .btn-default {
+    background: #000000;
+    color: #eceff1;
+    border: 1px solid #000000;
+}
+
+.btn-primary:hover, .btn-default:hover {
+    background: #45007c;
+    color: #eceff1;
+    border: 1px solid #45007c;
+}
+
+.btn-success {
+    background: #000000;
+    border: none;
+}
+
+.btn-success:hover {
+    background: #000000;
+    border: none;
+}
+
+.input-group .input-group-addon {
+    background: #000000;
+    color: #eceff1;
+    border: none;
+}
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background: #000000;
+}
+
+#zip_file {
+    width: 100%;
+    background: #000000;
+}
+
+.help-block {
+    color: #90a4ae;
+}
+
+/* ___ blacklist/whitelist ___ */
+
+.list-group-item {
+    background: #000000;
+    color: #cfd8dc;
+    border: 1px solid #000000;
+}
+
+.skin-blue .list-group-item:hover {
+    background: #263238 !important;
+}
+
+/* ___ querylog ___ */
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    background: #000000;
+    color: #cfd8dc;
+    border: 1px solid #000000;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background: #000000;
+    color: #eceff1;
+    border: 1px solid #000000;
+}
+
+.pagination>li>a {
+    background: #000000;
+    color: #cfd8dc;
+    border: 1px solid #000000;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    background: #45007c;
+    color: #eceff1;
+    border: 1px solid #45007c;
+}
+
+tr.even {
+    color: #cfd8dc !important;
+}
+
+tr.odd {
+    color: #eceff1 !important;
+}
+
+button {
+    background: #000000;
+    border: 1px solid #000000;
+    color: #eceff1 !important;
+}
+
+.progress-bar {
+ background-color:#7621ff; 
+}
